@@ -309,6 +309,7 @@
               }
 
               function main() {
+                console.log("TEST");
                 // Create a camera object.
                 var output = document.getElementById("output");
                 var camera = document.createElement("video");
@@ -415,6 +416,7 @@
 
                 document.getElementById("startStopButton").onclick =
                   function toggle() {
+                    console.log("TEST");
                     if (isRunning) {
                       isRunning = false;
                       document.getElementById("startStopButton").innerHTML =
